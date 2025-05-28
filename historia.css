@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Exile&family=Luckiest+Guy&family=Mochiy+Pop+One&family=Oi&family=Orbitron:wght@400..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poetsen+One&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Dirt&family=Share+Tech&family=WDXL+Lubrifont+TC&display=swap');
+body{
+    background-color: black;
+}
+h1{
+    font-family:  "Luckiest Guy", cursive;
+    font-size: 50px;
+    color: #fff;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.conteudo{
+    display: flex;
+        flex: 2;
+    background-color: #ffffff;
+    padding: 20px;
+    margin-right: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    color: rgb(0, 0, 0);
+}
+nav{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    margin: 0 15px;
+}
+nav ul li a{
+    font-family: "Luckiest Guy", cursive;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+}
